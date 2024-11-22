@@ -26,4 +26,4 @@ for i in range(num_trials):
       and samples.count(-1) > samples.count(1)):
     negative_majority_occurences += 1
 print(
-    f"Percent Majority Negative: {negative_majority_occurences / num_trials}")
+    f"Probability -1 Majority: {negative_majority_occurences / num_trials}")
